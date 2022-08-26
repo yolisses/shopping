@@ -14,6 +14,8 @@ public class Sale {
     @Id
     @GeneratedValue
     private long id;
+    
+    private double price;
 
     @CreationTimestamp
     private Instant createdAt;
